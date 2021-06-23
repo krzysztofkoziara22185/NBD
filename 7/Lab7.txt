@@ -1,0 +1,36 @@
+riak-admin bucket-type create s22185 '{"props":{}}'
+riak-admin bucket-type activate s22185
+
+1.
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":0,"isActive":true,"balance":2149.53,"age":20,"name":"Jan Kowalski"}' http://localhost:8098/buckets/s22185/keys/Jan -o Jan.txt
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":1,"isActive":false,"balance":3454543457.63,"age":86,"name":"Andrzej Nowak"}' http://localhost:8098/buckets/s22185/keys/Andrzej -o Andrzej.txt
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":2,"isActive":true,"balance":0,"age":45,"name":"Stanislaw Wisniewski"}' http://localhost:8098/buckets/s22185/keys/Stanislaw -o Stanislaw.txt
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":3,"isActive":true,"balance":10000000,"age":34,"name":"Zdzislaw Nowacki"}' http://localhost:8098/buckets/s22185/keys/Zdzislaw -o Zdzislaw.txt
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":4,"isActive":false,"balance":456765,"age":56,"name":"Kazimierz Dobrowolski"}' http://localhost:8098/buckets/s22185/keys/Kazimierz -o Kazimierz.txt
+
+2.
+curl http://localhost:8098/buckets/s22185/keys/Jan -o Jan_output.txt
+
+3.
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":0,"isActive":true,"balance":2149.53,"age":20,"name":"Jan Kowalski","location": "Radom"}' http://localhost:8098/buckets/s22185/keys/Jan -o Jan_modified.txt
+
+4.
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":0,"isActive":true,"age":20,"name":"Jan Kowalski","location": "Radom"}' http://localhost:8098/buckets/s22185/keys/Jan -o Jan_deleted_field.txt
+
+5.
+curl -XPUT -i -H "Content-Type:application/json" -d '{"index":0,"isActive":false,"age":20,"name":"Jan Kowalski","location": "Radom"}' http://localhost:8098/buckets/s22185/keys/Jan -o Jan_to_inactive.txt
+
+6.
+curl -XDELETE -i -H "Content-Type:application/json"  http://localhost:8098/buckets/s22185/keys/Jan -o Jan_delete_record.txt
+
+7.
+curl http://localhost:8098/buckets/s22185/keys/Jan -o is_there_Jan?.txt
+
+8.
+curl -XPOST -i -H "Content-Type:application/json" -d '{"name":"Jan Kowalski"}' http://localhost:8098/buckets/s22185/keys/ -o Jan_is_back.txt
+
+9.
+curl http://localhost:8098/buckets/s22185/keys/OeEI6TKe9gY6EacgRagr86G7NaK -o there_you_are.txt
+
+10.
+curl -XDELETE -i -H "Content-Type:application/json"  http://localhost:8098/buckets/s22185/keys/OeEI6TKe9gY6EacgRagr86G7NaK -o Jan_deleted_again.txt

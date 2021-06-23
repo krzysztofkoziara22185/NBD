@@ -1,0 +1,7 @@
+Connected to port 8087
+Added an object of key Jan to bucket s22185
+Fetched an object of key Jan from bucket s22185
+Modified an object of key Jan from bucket s22185
+Fetched an object of key Jan from bucket s22185
+An object of key Jan in bucket s22185 has been deleted
+No object of key Jan in bucket s22185

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "Airline_num": "19977",
+    "cities_count": 74,
+    "org_cities": 35,
+    "dest_cities": 39
+  },
+  {
+    "Airline_num": "20304",
+    "cities_count": 50,
+    "org_cities": 24,
+    "dest_cities": 26
+  }
+]

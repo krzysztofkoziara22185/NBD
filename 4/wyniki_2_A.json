@@ -1,0 +1,622 @@
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c3d9a27d-0834-4725-9e55-6a0eb3600956") }
+MongoDB server version: 4.4.4
+[
+	{
+		"_id" : "ALL",
+		"total" : NumberDecimal("651597.87")
+	},
+	{
+		"_id" : "HTG",
+		"total" : NumberDecimal("215992.13")
+	},
+	{
+		"_id" : "IQD",
+		"total" : NumberDecimal("167531.82")
+	},
+	{
+		"_id" : "VUV",
+		"total" : NumberDecimal("23188.93")
+	},
+	{
+		"_id" : "MXN",
+		"total" : NumberDecimal("1547673.09")
+	},
+	{
+		"_id" : "MUR",
+		"total" : NumberDecimal("182130.48")
+	},
+	{
+		"_id" : "GTQ",
+		"total" : NumberDecimal("588368.85")
+	},
+	{
+		"_id" : "MGA",
+		"total" : NumberDecimal("377675.55")
+	},
+	{
+		"_id" : "BYR",
+		"total" : NumberDecimal("686489.84")
+	},
+	{
+		"_id" : "SGD",
+		"total" : NumberDecimal("12820.48")
+	},
+	{
+		"_id" : "LKR",
+		"total" : NumberDecimal("225111.39")
+	},
+	{
+		"_id" : "ARS",
+		"total" : NumberDecimal("1940347.24")
+	},
+	{
+		"_id" : "RUB",
+		"total" : NumberDecimal("8532474.09")
+	},
+	{
+		"_id" : "XPF",
+		"total" : NumberDecimal("132926.01")
+	},
+	{
+		"_id" : "SBD",
+		"total" : NumberDecimal("9983.00")
+	},
+	{
+		"_id" : "SRD",
+		"total" : NumberDecimal("19686.77")
+	},
+	{
+		"_id" : "RSD",
+		"total" : NumberDecimal("817403.54")
+	},
+	{
+		"_id" : "XOF",
+		"total" : NumberDecimal("934043.61")
+	},
+	{
+		"_id" : "DKK",
+		"total" : NumberDecimal("222452.28")
+	},
+	{
+		"_id" : "ZAR",
+		"total" : NumberDecimal("932463.66")
+	},
+	{
+		"_id" : "CUP",
+		"total" : NumberDecimal("514413.88")
+	},
+	{
+		"_id" : "BGN",
+		"total" : NumberDecimal("496641.83")
+	},
+	{
+		"_id" : "YER",
+		"total" : NumberDecimal("583657.38")
+	},
+	{
+		"_id" : "SDG",
+		"total" : NumberDecimal("127317.75")
+	},
+	{
+		"_id" : "XAF",
+		"total" : NumberDecimal("736336.77")
+	},
+	{
+		"_id" : "QAR",
+		"total" : NumberDecimal("36358.92")
+	},
+	{
+		"_id" : "KRW",
+		"total" : NumberDecimal("433497.06")
+	},
+	{
+		"_id" : "PEN",
+		"total" : NumberDecimal("2356548.02")
+	},
+	{
+		"_id" : "UGX",
+		"total" : NumberDecimal("345203.25")
+	},
+	{
+		"_id" : "BAM",
+		"total" : NumberDecimal("415965.47")
+	},
+	{
+		"_id" : "AOA",
+		"total" : NumberDecimal("67582.80")
+	},
+	{
+		"_id" : "LAK",
+		"total" : NumberDecimal("86305.05")
+	},
+	{
+		"_id" : "MVR",
+		"total" : NumberDecimal("32068.85")
+	},
+	{
+		"_id" : "COP",
+		"total" : NumberDecimal("1976194.79")
+	},
+	{
+		"_id" : "VEF",
+		"total" : NumberDecimal("629053.41")
+	},
+	{
+		"_id" : "CVE",
+		"total" : NumberDecimal("46538.51")
+	},
+	{
+		"_id" : "STD",
+		"total" : NumberDecimal("4854.36")
+	},
+	{
+		"_id" : "UZS",
+		"total" : NumberDecimal("330309.61")
+	},
+	{
+		"_id" : "CAD",
+		"total" : NumberDecimal("1973241.60")
+	},
+	{
+		"_id" : "RWF",
+		"total" : NumberDecimal("43299.96")
+	},
+	{
+		"_id" : "ERN",
+		"total" : NumberDecimal("21598.47")
+	},
+	{
+		"_id" : "TRY",
+		"total" : NumberDecimal("18414.53")
+	},
+	{
+		"_id" : "EGP",
+		"total" : NumberDecimal("528336.14")
+	},
+	{
+		"_id" : "CHF",
+		"total" : NumberDecimal("108940.64")
+	},
+	{
+		"_id" : "MNT",
+		"total" : NumberDecimal("639977.48")
+	},
+	{
+		"_id" : "IRR",
+		"total" : NumberDecimal("804397.05")
+	},
+	{
+		"_id" : "DJF",
+		"total" : NumberDecimal("14734.27")
+	},
+	{
+		"_id" : "KZT",
+		"total" : NumberDecimal("584923.20")
+	},
+	{
+		"_id" : "NIO",
+		"total" : NumberDecimal("240664.87")
+	},
+	{
+		"_id" : "SSP",
+		"total" : NumberDecimal("42256.53")
+	},
+	{
+		"_id" : "GBP",
+		"total" : NumberDecimal("243512.86")
+	},
+	{
+		"_id" : "NGN",
+		"total" : NumberDecimal("1282147.14")
+	},
+	{
+		"_id" : "LTL",
+		"total" : NumberDecimal("220627.42")
+	},
+	{
+		"_id" : "SEK",
+		"total" : NumberDecimal("3706221.01")
+	},
+	{
+		"_id" : "TMT",
+		"total" : NumberDecimal("113099.62")
+	},
+	{
+		"_id" : "MYR",
+		"total" : NumberDecimal("666533.65")
+	},
+	{
+		"_id" : "MDL",
+		"total" : NumberDecimal("173318.73")
+	},
+	{
+		"_id" : "AMD",
+		"total" : NumberDecimal("602964.09")
+	},
+	{
+		"_id" : "NPR",
+		"total" : NumberDecimal("146606.65")
+	},
+	{
+		"_id" : "LRD",
+		"total" : NumberDecimal("54883.45")
+	},
+	{
+		"_id" : "NAD",
+		"total" : NumberDecimal("55420.34")
+	},
+	{
+		"_id" : "CNY",
+		"total" : NumberDecimal("27430692.92")
+	},
+	{
+		"_id" : "FJD",
+		"total" : NumberDecimal("9321.43")
+	},
+	{
+		"_id" : "FKP",
+		"total" : NumberDecimal("5118.97")
+	},
+	{
+		"_id" : "TOP",
+		"total" : NumberDecimal("18424.47")
+	},
+	{
+		"_id" : "BDT",
+		"total" : NumberDecimal("294843.38")
+	},
+	{
+		"_id" : "BTN",
+		"total" : NumberDecimal("37711.08")
+	},
+	{
+		"_id" : "RON",
+		"total" : NumberDecimal("11557.60")
+	},
+	{
+		"_id" : "MMK",
+		"total" : NumberDecimal("223284.76")
+	},
+	{
+		"_id" : "AFN",
+		"total" : NumberDecimal("661834.75")
+	},
+	{
+		"_id" : "MOP",
+		"total" : NumberDecimal("5337.77")
+	},
+	{
+		"_id" : "BND",
+		"total" : NumberDecimal("7782.66")
+	},
+	{
+		"_id" : "ZWL",
+		"total" : NumberDecimal("142978.86")
+	},
+	{
+		"_id" : "BWP",
+		"total" : NumberDecimal("146972.04")
+	},
+	{
+		"_id" : "KPW",
+		"total" : NumberDecimal("222518.63")
+	},
+	{
+		"_id" : "NZD",
+		"total" : NumberDecimal("338447.54")
+	},
+	{
+		"_id" : "HKD",
+		"total" : NumberDecimal("23023.02")
+	},
+	{
+		"_id" : "IDR",
+		"total" : NumberDecimal("15625318.47")
+	},
+	{
+		"_id" : "EUR",
+		"total" : NumberDecimal("16700089.28")
+	},
+	{
+		"_id" : "AWG",
+		"total" : NumberDecimal("7282.73")
+	},
+	{
+		"_id" : "CZK",
+		"total" : NumberDecimal("2644211.16")
+	},
+	{
+		"_id" : "BRL",
+		"total" : NumberDecimal("5609900.00")
+	},
+	{
+		"_id" : "MKD",
+		"total" : NumberDecimal("436912.01")
+	},
+	{
+		"_id" : "GEL",
+		"total" : NumberDecimal("157276.96")
+	},
+	{
+		"_id" : "MRO",
+		"total" : NumberDecimal("44471.32")
+	},
+	{
+		"_id" : "MAD",
+		"total" : NumberDecimal("510936.11")
+	},
+	{
+		"_id" : "GNF",
+		"total" : NumberDecimal("73222.48")
+	},
+	{
+		"_id" : "SAR",
+		"total" : NumberDecimal("161706.00")
+	},
+	{
+		"_id" : "BBD",
+		"total" : NumberDecimal("26720.50")
+	},
+	{
+		"_id" : "JMD",
+		"total" : NumberDecimal("201447.71")
+	},
+	{
+		"_id" : "KMF",
+		"total" : NumberDecimal("138004.70")
+	},
+	{
+		"_id" : "JOD",
+		"total" : NumberDecimal("210496.68")
+	},
+	{
+		"_id" : "PYG",
+		"total" : NumberDecimal("286515.48")
+	},
+	{
+		"_id" : "CLP",
+		"total" : NumberDecimal("388620.14")
+	},
+	{
+		"_id" : "AZN",
+		"total" : NumberDecimal("394880.17")
+	},
+	{
+		"_id" : "KYD",
+		"total" : NumberDecimal("16809.66")
+	},
+	{
+		"_id" : "SOS",
+		"total" : NumberDecimal("82203.48")
+	},
+	{
+		"_id" : "ANG",
+		"total" : NumberDecimal("21354.39")
+	},
+	{
+		"_id" : "TWD",
+		"total" : NumberDecimal("37654.00")
+	},
+	{
+		"_id" : "KHR",
+		"total" : NumberDecimal("100447.58")
+	},
+	{
+		"_id" : "TJS",
+		"total" : NumberDecimal("177401.05")
+	},
+	{
+		"_id" : "MZN",
+		"total" : NumberDecimal("92068.64")
+	},
+	{
+		"_id" : "DOP",
+		"total" : NumberDecimal("534069.77")
+	},
+	{
+		"_id" : "PKR",
+		"total" : NumberDecimal("687770.55")
+	},
+	{
+		"_id" : "BHD",
+		"total" : NumberDecimal("22698.46")
+	},
+	{
+		"_id" : "ILS",
+		"total" : NumberDecimal("758807.63")
+	},
+	{
+		"_id" : "HRK",
+		"total" : NumberDecimal("689403.50")
+	},
+	{
+		"_id" : "SYP",
+		"total" : NumberDecimal("501467.35")
+	},
+	{
+		"_id" : "PGK",
+		"total" : NumberDecimal("61445.27")
+	},
+	{
+		"_id" : "HNL",
+		"total" : NumberDecimal("817695.24")
+	},
+	{
+		"_id" : "UYU",
+		"total" : NumberDecimal("231996.14")
+	},
+	{
+		"_id" : "LSL",
+		"total" : NumberDecimal("26269.07")
+	},
+	{
+		"_id" : "LYD",
+		"total" : NumberDecimal("197545.65")
+	},
+	{
+		"_id" : "BMD",
+		"total" : NumberDecimal("5189.0")
+	},
+	{
+		"_id" : "GYD",
+		"total" : NumberDecimal("13053.50")
+	},
+	{
+		"_id" : "BZD",
+		"total" : NumberDecimal("24296.69")
+	},
+	{
+		"_id" : "MWK",
+		"total" : NumberDecimal("88106.83")
+	},
+	{
+		"_id" : "BOB",
+		"total" : NumberDecimal("257433.54")
+	},
+	{
+		"_id" : "ZMW",
+		"total" : NumberDecimal("160940.53")
+	},
+	{
+		"_id" : "JPY",
+		"total" : NumberDecimal("2584824.90")
+	},
+	{
+		"_id" : "GMD",
+		"total" : NumberDecimal("157963.90")
+	},
+	{
+		"_id" : "ISK",
+		"total" : NumberDecimal("39048.74")
+	},
+	{
+		"_id" : "CDF",
+		"total" : NumberDecimal("178097.37")
+	},
+	{
+		"_id" : "AUD",
+		"total" : NumberDecimal("242667.03")
+	},
+	{
+		"_id" : "VND",
+		"total" : NumberDecimal("1395639.11")
+	},
+	{
+		"_id" : "BIF",
+		"total" : NumberDecimal("45782.33")
+	},
+	{
+		"_id" : "PHP",
+		"total" : NumberDecimal("8223429.02")
+	},
+	{
+		"_id" : "TND",
+		"total" : NumberDecimal("325755.90")
+	},
+	{
+		"_id" : "LBP",
+		"total" : NumberDecimal("43326.06")
+	},
+	{
+		"_id" : "PAB",
+		"total" : NumberDecimal("363643.61")
+	},
+	{
+		"_id" : "THB",
+		"total" : NumberDecimal("2084269.88")
+	},
+	{
+		"_id" : "SCR",
+		"total" : NumberDecimal("14797.58")
+	},
+	{
+		"_id" : "AED",
+		"total" : NumberDecimal("52973.33")
+	},
+	{
+		"_id" : "WST",
+		"total" : NumberDecimal("30739.64")
+	},
+	{
+		"_id" : "SZL",
+		"total" : NumberDecimal("59113.09")
+	},
+	{
+		"_id" : "TZS",
+		"total" : NumberDecimal("603855.99")
+	},
+	{
+		"_id" : "SLL",
+		"total" : NumberDecimal("116224.90")
+	},
+	{
+		"_id" : "BSD",
+		"total" : NumberDecimal("55361.39")
+	},
+	{
+		"_id" : "UAH",
+		"total" : NumberDecimal("2505840.72")
+	},
+	{
+		"_id" : "GHS",
+		"total" : NumberDecimal("83159.05")
+	},
+	{
+		"_id" : "ETB",
+		"total" : NumberDecimal("269686.62")
+	},
+	{
+		"_id" : "HUF",
+		"total" : NumberDecimal("165192.16")
+	},
+	{
+		"_id" : "XCD",
+		"total" : NumberDecimal("168150.01")
+	},
+	{
+		"_id" : "KWD",
+		"total" : NumberDecimal("82506.07")
+	},
+	{
+		"_id" : "NOK",
+		"total" : NumberDecimal("760113.61")
+	},
+	{
+		"_id" : "USD",
+		"total" : NumberDecimal("4086760.81")
+	},
+	{
+		"_id" : "CRC",
+		"total" : NumberDecimal("334544.06")
+	},
+	{
+		"_id" : "TTD",
+		"total" : NumberDecimal("44044.89")
+	},
+	{
+		"_id" : "OMR",
+		"total" : NumberDecimal("87008.08")
+	},
+	{
+		"_id" : "KES",
+		"total" : NumberDecimal("269798.11")
+	},
+	{
+		"_id" : "INR",
+		"total" : NumberDecimal("24172.94")
+	},
+	{
+		"_id" : "PLN",
+		"total" : NumberDecimal("5065738.36")
+	},
+	{
+		"_id" : "DZD",
+		"total" : NumberDecimal("12166.20")
+	},
+	{
+		"_id" : "KGS",
+		"total" : NumberDecimal("176827.79")
+	}
+]

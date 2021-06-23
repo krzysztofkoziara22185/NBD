@@ -1,0 +1,32 @@
+1. MATCH (movie:Movie) return movie
+2. MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoMovies) RETURN hugo,hugoMovies
+3. MATCH (a:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(d:Person) RETURN d 
+4. MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors) RETURN coActors as hugo_coactors
+5. MATCH(m:Movie {title: "The Matrix"})<-[:ACTED_IN]-(matrix_actor_films)- [:ACTED_IN] ->(movies) RETURN  movies
+6. MATCH (actor: Person) - [:ACTED_IN] -> (movie:Movie) RETURN actor, count(movie)
+7. MATCH (writer: Person)-[:WROTE]->(movie: Movie)<-[:DIRECTED]-(director: Person) WHERE writer = director RETURN movie,writer
+8. MATCH (actor:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie:Movie)<-[:ACTED_IN]-(actor2:Person {name: "Keanu Reeves"}) RETURN movie
+9. 
+
+CREATE (CaptainAmerica: Movie {title:'Captain America: The First Avenger', released:2011, tagline: 'When patriots become heroes'})
+CREATE (actor1: Person {name:'Chris Evans', born:1981})
+CREATE (actor2: Person {name:'Hayley Atwell',born:1982})
+CREATE (actor3: Person {name:'Sebastian Stan',born:1982})
+CREATE (actor4: Person {name:'Tommy Lee Jones',born:1946})
+CREATE (actor5: Person {name:'Hugo Weaving',born:1960})
+CREATE (producer: Person {name:'Kevin Feige',born:1972})
+CREATE (director: Person {name:'Joe Johnston',born:1950})
+CREATE (writer1: Person {name:'Christopher Markus',born:1970})
+CREATE (writer2: Person {name:'Stephen McFeely',born:1969})
+CREATE
+(actor1)-[:ACTED_IN {roles:['Steve Rogers']}]->(CaptainAmerica),
+(actor2)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica),
+(actor3)-[:ACTED_IN {roles:['James Buchanan Barnes']}]->(CaptainAmerica),
+(actor4)-[:ACTED_IN {roles:['Colonel Chester Phillips']}]->(CaptainAmerica),
+(actor5)-[:ACTED_IN {roles:['Johann Schmidt']}]->(CaptainAmerica),
+(producer)-[:PRODUCED]->(CaptainAmerica),
+(director)-[:DIRECTED]->(CaptainAmerica),
+(writer1)-[:WROTE]->(CaptainAmerica),
+(writer2)-[:WROTE]->(CaptainAmerica)
+
+MATCH (people:Person)-[relatedTo]-(m:Movie {title: "Captain America: The First Avenger"}) RETURN people, Type(relatedTo), relatedTo, m
